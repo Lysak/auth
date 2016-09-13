@@ -15,7 +15,7 @@
     "require": {
         "php": ">=5.5.9",
         "laravel/framework": "5.1.*|5.2.*",
-        "longman/laravel-platfourm": "~0.1",
+        "longman/laravel-platfourm": "~0.0.1",
         "guzzlehttp/guzzle": "~6.2"
     },
     "require-dev": {

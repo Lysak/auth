@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c33983d3bb708ad92c7c0e4bdcb0117d",
-    "content-hash": "cf9b7aa38801b0ee4be3ea04ba96d496",
+    "hash": "6f99b8cf4a79f92102ffb3c793307eae",
+    "content-hash": "44c3b8c6ba5aca0e1d6c8e0fdf19bfb2",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -754,7 +754,7 @@
         },
         {
             "name": "longman/laravel-platfourm",
-            "version": "dev-master",
+            "version": "0.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/akalongman/laravel-platfourm.git",
@@ -787,11 +787,7 @@
                     "src/helpers.php"
                 ]
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "Tests\\": "tests/"
-                }
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -813,10 +809,6 @@
                 "repository",
                 "service"
             ],
-            "support": {
-                "issues": "https://github.com/akalongman/laravel-platfourm/issues",
-                "source": "https://github.com/akalongman/laravel-platfourm"
-            },
             "time": "2016-09-09 09:13:59"
         },
         {
@@ -3929,9 +3921,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "longman/laravel-platfourm": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
