@@ -15,7 +15,7 @@
     "require": {
         "php": ">=5.5.9",
         "laravel/framework": "5.1.*|5.2.*",
-        "longman/laravel-platfourm": "dev-master",
+        "longman/laravel-platfourm": "~0.1",
         "guzzlehttp/guzzle": "~6.2"
     },
     "require-dev": {
@@ -34,11 +34,5 @@
         "psr-4": {
             "Tests\\": "tests/"
         }
-    },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/akalongman/laravel-platfourm"
-        }
-    ]
+    }
 }
