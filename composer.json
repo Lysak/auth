@@ -27,11 +27,8 @@
     },
     "autoload": {
         "psr-4": {
-            "FourCms\\Admin\\": "src/Admin"
-        },
-        "files": [
-            "src/helpers.php"
-        ]
+            "FourCms\\Auth\\": "src/Auth"
+        }
     },
     "autoload-dev": {
         "psr-4": {
