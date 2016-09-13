@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6f99b8cf4a79f92102ffb3c793307eae",
-    "content-hash": "44c3b8c6ba5aca0e1d6c8e0fdf19bfb2",
+    "hash": "611ae62017c3a60ae440e800f4988c0f",
+    "content-hash": "a62751bb7b468634f53c463941f82c30",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -689,6 +689,54 @@
                 "storage"
             ],
             "time": "2016-08-10 08:55:11"
+        },
+        {
+            "name": "longman/ip-tools",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/akalongman/php-ip-tools.git",
+                "reference": "0ea8283f79b4a2306c4b90fb8329722258795edb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/akalongman/php-ip-tools/zipball/0ea8283f79b4a2306c4b90fb8329722258795edb",
+                "reference": "0ea8283f79b4a2306c4b90fb8329722258795edb",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpspec/phpspec": "~2.1",
+                "phpunit/phpunit": "~4.1",
+                "squizlabs/php_codesniffer": "~2.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Longman\\IPTools\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Avtandil Kikabidze aka LONGMAN",
+                    "email": "akalongman@gmail.com",
+                    "homepage": "https://longman.me",
+                    "role": "Developer"
+                }
+            ],
+            "description": "PHP profiler library",
+            "homepage": "https://github.com/akalongman/php-ip-tools",
+            "keywords": [
+                "debugger",
+                "profiler"
+            ],
+            "time": "2015-11-12 10:06:02"
         },
         {
             "name": "longman/laravel-multilang",
