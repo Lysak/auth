@@ -124,8 +124,10 @@ class RemoteUserRepository
                         try {
                             $match = Ip::match($ip, $ips);
                             if (!$match) {
-                                $this->log->warning('Login failed (ITDC driver): client ip "' . $ip . '" not match with ip ranges: ' . implode(', ',
-                                                                                                                                               $ips));
+                                $this->log->warning('Login failed (ITDC driver): client ip "' . $ip . '" not match with ip ranges: ' . implode(
+                                    ', ',
+                                    $ips
+                                ));
                                 return false;
                             }
                         } catch (InvalidArgumentException $e) {

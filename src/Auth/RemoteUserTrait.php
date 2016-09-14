@@ -25,7 +25,6 @@ trait RemoteUserTrait
         $this->setRemoteId($attributes);
 
         if (config('auth.providers.itdc.auto_save')) {
-
             $user = $this->find(['id' => $this->id])->first();
             if (config('auth.providers.itdc.attach_role')) {
                 $this->attachAdminRoleForRemoteUser($this->id);

@@ -30,7 +30,6 @@ class AuthServiceProvider extends ServiceProvider
 
             return new RemoteUserProvider($app['hash'], $app['cache'], $repository, $config);
         });
-
     }
 
     /**
@@ -44,6 +43,5 @@ class AuthServiceProvider extends ServiceProvider
             \Longman\Platfourm\Contracts\Auth\AuthUserService::class,
             \Longman\Platfourm\Auth\Services\AuthUserService::class
         );
-
     }
 }
